@@ -1,0 +1,54 @@
+body {
+    background-color: #996161;
+}
+ 
+#grid {
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgba(127, 214, 55, 0.39);
+    padding: 10px 50px 50px 50px;
+    border: 2px solid #01fa01;
+    
+}
+
+p {
+    color: blue;
+    text-decoration: solid;
+    font-size: 24px;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+}
+#add_div {
+    float: center;
+    display: inline;
+}
+
+#add_div > input{
+    border: 0.5px solid blue;
+    text-align: left;
+    font-size: 20px;
+    box-shadow: 0px 0px 2px 2px rgb(115, 119, 119);
+    margin-right: 10px;
+    max-width: 60%;
+    display: inline-block;
+}
+
+#add_div > button:hover{
+    background-color: aqua;
+    transition: 0.5s ease-in-out;
+}
+
+
+.items_div {
+    color: #2e07da;
+    text-align: left;
+    font-size: 24px;
+    padding: 10px 10x;
+    margin-top: 10px;
+    width: 350px;
+    display: inline-block;
+
+}
+
+
